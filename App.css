@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.file-upload {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px dashed #007bff;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-upload:hover {
+  background-color: #f0f8ff;
+}
+
+.file-upload input[type="file"] {
+  display: none;
+}
+
+.playlist {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.track.playing {
+  background-color: #f1f8ff;
+}
+
+.now-playing {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.playlist {
+  text-align: center;
+}
+
+.playlist h3 {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: inline-block;
+}
